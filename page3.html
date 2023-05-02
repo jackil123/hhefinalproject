@@ -1,0 +1,84 @@
+<html>
+    <body>
+        <p> You wake up, and decide to start your day by running some errands.  The first errand
+            is to go to the supermarket.  There, you have to make a choice, a choice that could determine
+            the path of your life for years to come.  Produce.  There are three options, and only one will 
+            lead you to living a safe and healthy life.  The other two could cause problems, problems
+            whose ramifications migh tbe felt immediately, or may slowly creep up on you in the years to come.
+            this is your first choice, choose wisely. </p>
+        <div class="row">
+            <div class="column">
+                <div id="avocado">
+                    <a id="situation1" href="page8.html">organic avocados</a>
+                </div>
+            </div>
+            <div class="column">
+                <div id="cucumbers">
+                    <a id="situation2" href="page6.html">cucumbers</a>
+                </div>
+            </div>
+            <div class="column">
+                <div id="strawberries">
+                    <a id="situation3" href="page6.html">frozen strawberries</a>
+                </div>
+            </div>
+        </div>
+        <style>
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            body {
+                font-size: 20px;
+                background-color: black;
+                color: white;
+                font-family: Tahoma;
+            }
+            a {
+                color: white;
+            }
+            #strawberries{
+                background: url("strawbz.jpg");
+                height: 300px;
+                width: 400px;  
+                text-align: center;
+                max-width: 500px;
+                margin: auto;
+            }
+            #cucumbers{
+                background: url("cucumbers.jpg");
+                height: 300px;
+                width: 400px;
+                text-align: center;
+                max-width: 500px;
+                margin: auto;
+            }
+            #avocado {
+                background: url("avocado.jpg");
+                height: 300px;
+                width: 400px;
+                text-align: center;
+                max-width: 500px;
+                margin: auto;
+            }
+            #situation1 {
+                font-size: 40px;
+                background-color: rgba(0,0,0,.5);
+            }
+            #situation2 {
+                font-size: 40px;
+                background-color: rgba(0,0,0,.5);
+            }
+            #situation3{
+                font-size: 40px;
+                background-color: rgba(0,0,0,.5);
+            }
+        </style>
+    </body>
+</html>
